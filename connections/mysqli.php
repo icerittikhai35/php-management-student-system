@@ -34,7 +34,8 @@
   function check_submit_p1($check_submit_p1) {
     $check_submit = "<div class='col-md-12 mb-2'>";
     $check_submit .= "<div class='row justify-content-md-center'>";
-    $check_submit .= "<div class='col-md-auto'><span class='badge bg-danger' style='font-size: 1rem;'><i class='bi bi-exclamation-diamond'></i> $check_submit_p1</span></div>";
+    $check_submit .= "<div class='col-md-auto'><span class='badge bg-danger' style='font-size: 1rem;'><i class='bi bi-exclamation-diamond'></i> 
+    $check_submit_p1</span></div>";
     $check_submit .= "</div>";
     $check_submit .= "</div>";
 
@@ -44,7 +45,8 @@
   function check_submit_p2($check_submit_p2) {
     $check_submit = "<div class='col-md-12 mb-2'>";
     $check_submit .= "<div class='row justify-content-md-center'>";
-    $check_submit .= "<div class='col-md-auto'><span class='badge bg-success' style='font-size: 1rem;'><i class='bi bi-check-circle'></i> $check_submit_p2</span></div>";
+    $check_submit .= "<div class='col-md-auto'><span class='badge bg-success' style='font-size: 1rem;'><i class='bi bi-check-circle'></i> 
+    $check_submit_p2</span></div>";
     $check_submit .= "</div>";
     $check_submit .= "</div>";
 
