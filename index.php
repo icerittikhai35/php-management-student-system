@@ -29,9 +29,7 @@ require_once('connections/mysqli.php');
             </select>
           </div>
           <div class="col">
-            <input type="text" class="form-control" name="value" value="<?php if (isset($_POST['value'])) {
-                                                                          echo $_POST['value'];
-                                                                        } ?>" required />
+            <input type="text" class="form-control" name="value" value="<?php if (isset($_POST['value'])) { echo $_POST['value'];} ?>" required />
           </div>
           <div class="col-md-auto">
             <button type="submit" name="submit" class="btn btn-success">ค้นหา</button>

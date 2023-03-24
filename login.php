@@ -17,7 +17,7 @@ if (isset($_POST["submit"])) {
   if (!$result) {
     $user_username = $_POST['user_username'];
     $check_submit = '<div class="alert alert-danger" role="alert">';
-    $check_submit .= '<span><i class="bi bi-info-circle"></i> ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง กรุณาตรวจสอบใหม่อีกครั้ง</span>';
+    $check_submit .= '<span>ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง กรุณาตรวจสอบใหม่อีกครั้ง</span>';
     $check_submit .= '</div>';
   }else{
     $_SESSION["user_username"] = $result["user_username"];
@@ -56,9 +56,7 @@ if (isset($_POST["submit"])) {
           <h5 class="card-header">Login System</h5>
           <div class="card-body">
             <div class="row justify-content-md-center mb-2">
-              <div class="col col-lg-6">
-                <img src="images/login.png" style="width: 100%;">
-              </div>
+             
             </div>
             <form method="post">
               <div class="mb-3">
